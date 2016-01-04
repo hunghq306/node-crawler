@@ -22,7 +22,7 @@ describe('Simple test', function() {
                 expect(typeof result.body).to.equal('string');
             }
         });
-        c.queue('http://google.com');
+        c.queue('http://www.google.com');
     });
     it('should run the readme examples', function(done) {
         c = new Crawler({
